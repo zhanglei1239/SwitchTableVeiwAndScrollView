@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A11FEE21A63A7EC006F3AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A11FEE11A63A7EC006F3AB1 /* main.m */; };
+		9A11FEE51A63A7EC006F3AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A11FEE41A63A7EC006F3AB1 /* AppDelegate.m */; };
+		9A11FEE81A63A7EC006F3AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A11FEE71A63A7EC006F3AB1 /* ViewController.m */; };
+		9A11FEEB1A63A7EC006F3AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A11FEE91A63A7EC006F3AB1 /* Main.storyboard */; };
+		9A11FEED1A63A7EC006F3AB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A11FEEC1A63A7EC006F3AB1 /* Images.xcassets */; };
+		9A11FEF01A63A7EC006F3AB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A11FEEE1A63A7EC006F3AB1 /* LaunchScreen.xib */; };
+		9A11FEFC1A63A7ED006F3AB1 /* SwitchTableVeiwAndScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A11FEFB1A63A7ED006F3AB1 /* SwitchTableVeiwAndScrollViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A11FEF61A63A7EC006F3AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A11FED41A63A7EC006F3AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A11FEDB1A63A7EC006F3AB1;
+			remoteInfo = SwitchTableVeiwAndScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A11FEDC1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTableVeiwAndScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A11FEE01A63A7EC006F3AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A11FEE11A63A7EC006F3AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A11FEE31A63A7EC006F3AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A11FEE41A63A7EC006F3AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A11FEE61A63A7EC006F3AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A11FEE71A63A7EC006F3AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A11FEEA1A63A7EC006F3AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A11FEEC1A63A7EC006F3AB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A11FEEF1A63A7EC006F3AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A11FEF51A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchTableVeiwAndScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A11FEFA1A63A7EC006F3AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A11FEFB1A63A7ED006F3AB1 /* SwitchTableVeiwAndScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchTableVeiwAndScrollViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A11FED91A63A7EC006F3AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A11FEF21A63A7EC006F3AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A11FED31A63A7EC006F3AB1 = {
+			isa = PBXGroup;
+			children = (
+				9A11FEDE1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView */,
+				9A11FEF81A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests */,
+				9A11FEDD1A63A7EC006F3AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A11FEDD1A63A7EC006F3AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A11FEDC1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView.app */,
+				9A11FEF51A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A11FEDE1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				9A11FEE31A63A7EC006F3AB1 /* AppDelegate.h */,
+				9A11FEE41A63A7EC006F3AB1 /* AppDelegate.m */,
+				9A11FEE61A63A7EC006F3AB1 /* ViewController.h */,
+				9A11FEE71A63A7EC006F3AB1 /* ViewController.m */,
+				9A11FEE91A63A7EC006F3AB1 /* Main.storyboard */,
+				9A11FEEC1A63A7EC006F3AB1 /* Images.xcassets */,
+				9A11FEEE1A63A7EC006F3AB1 /* LaunchScreen.xib */,
+				9A11FEDF1A63A7EC006F3AB1 /* Supporting Files */,
+			);
+			path = SwitchTableVeiwAndScrollView;
+			sourceTree = "<group>";
+		};
+		9A11FEDF1A63A7EC006F3AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A11FEE01A63A7EC006F3AB1 /* Info.plist */,
+				9A11FEE11A63A7EC006F3AB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A11FEF81A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A11FEFB1A63A7ED006F3AB1 /* SwitchTableVeiwAndScrollViewTests.m */,
+				9A11FEF91A63A7EC006F3AB1 /* Supporting Files */,
+			);
+			path = SwitchTableVeiwAndScrollViewTests;
+			sourceTree = "<group>";
+		};
+		9A11FEF91A63A7EC006F3AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A11FEFA1A63A7EC006F3AB1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A11FEDB1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A11FEFF1A63A7ED006F3AB1 /* Build configuration list for PBXNativeTarget "SwitchTableVeiwAndScrollView" */;
+			buildPhases = (
+				9A11FED81A63A7EC006F3AB1 /* Sources */,
+				9A11FED91A63A7EC006F3AB1 /* Frameworks */,
+				9A11FEDA1A63A7EC006F3AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchTableVeiwAndScrollView;
+			productName = SwitchTableVeiwAndScrollView;
+			productReference = 9A11FEDC1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A11FEF41A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A11FF021A63A7ED006F3AB1 /* Build configuration list for PBXNativeTarget "SwitchTableVeiwAndScrollViewTests" */;
+			buildPhases = (
+				9A11FEF11A63A7EC006F3AB1 /* Sources */,
+				9A11FEF21A63A7EC006F3AB1 /* Frameworks */,
+				9A11FEF31A63A7EC006F3AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A11FEF71A63A7EC006F3AB1 /* PBXTargetDependency */,
+			);
+			name = SwitchTableVeiwAndScrollViewTests;
+			productName = SwitchTableVeiwAndScrollViewTests;
+			productReference = 9A11FEF51A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A11FED41A63A7EC006F3AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhanglei;
+				TargetAttributes = {
+					9A11FEDB1A63A7EC006F3AB1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9A11FEF41A63A7EC006F3AB1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9A11FEDB1A63A7EC006F3AB1;
+					};
+				};
+			};
+			buildConfigurationList = 9A11FED71A63A7EC006F3AB1 /* Build configuration list for PBXProject "SwitchTableVeiwAndScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A11FED31A63A7EC006F3AB1;
+			productRefGroup = 9A11FEDD1A63A7EC006F3AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A11FEDB1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView */,
+				9A11FEF41A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A11FEDA1A63A7EC006F3AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A11FEEB1A63A7EC006F3AB1 /* Main.storyboard in Resources */,
+				9A11FEF01A63A7EC006F3AB1 /* LaunchScreen.xib in Resources */,
+				9A11FEED1A63A7EC006F3AB1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A11FEF31A63A7EC006F3AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A11FED81A63A7EC006F3AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A11FEE81A63A7EC006F3AB1 /* ViewController.m in Sources */,
+				9A11FEE51A63A7EC006F3AB1 /* AppDelegate.m in Sources */,
+				9A11FEE21A63A7EC006F3AB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A11FEF11A63A7EC006F3AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A11FEFC1A63A7ED006F3AB1 /* SwitchTableVeiwAndScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A11FEF71A63A7EC006F3AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A11FEDB1A63A7EC006F3AB1 /* SwitchTableVeiwAndScrollView */;
+			targetProxy = 9A11FEF61A63A7EC006F3AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A11FEE91A63A7EC006F3AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A11FEEA1A63A7EC006F3AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A11FEEE1A63A7EC006F3AB1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A11FEEF1A63A7EC006F3AB1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A11FEFD1A63A7ED006F3AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A11FEFE1A63A7ED006F3AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A11FF001A63A7ED006F3AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchTableVeiwAndScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A11FF011A63A7ED006F3AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchTableVeiwAndScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A11FF031A63A7ED006F3AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchTableVeiwAndScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchTableVeiwAndScrollView.app/SwitchTableVeiwAndScrollView";
+			};
+			name = Debug;
+		};
+		9A11FF041A63A7ED006F3AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchTableVeiwAndScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchTableVeiwAndScrollView.app/SwitchTableVeiwAndScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A11FED71A63A7EC006F3AB1 /* Build configuration list for PBXProject "SwitchTableVeiwAndScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A11FEFD1A63A7ED006F3AB1 /* Debug */,
+				9A11FEFE1A63A7ED006F3AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A11FEFF1A63A7ED006F3AB1 /* Build configuration list for PBXNativeTarget "SwitchTableVeiwAndScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A11FF001A63A7ED006F3AB1 /* Debug */,
+				9A11FF011A63A7ED006F3AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A11FF021A63A7ED006F3AB1 /* Build configuration list for PBXNativeTarget "SwitchTableVeiwAndScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A11FF031A63A7ED006F3AB1 /* Debug */,
+				9A11FF041A63A7ED006F3AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A11FED41A63A7EC006F3AB1 /* Project object */;
+}
